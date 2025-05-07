@@ -24,7 +24,9 @@
   </pluginRepository>
 </pluginRepositories>
 
-     
+       <properties>
+        <utility-lib.version>1.0-20250507.134517-4</utility-lib.version>
+    </properties>
   <dependencies>
     <dependency>
       <groupId>com.example</groupId>
