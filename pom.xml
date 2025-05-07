@@ -5,6 +5,25 @@
   <groupId>com.example</groupId>
   <artifactId>main-app</artifactId>
   <version>1.0-SNAPSHOT</version>
+
+<repositories>
+  <repository>
+    <id>nexus-repository-snapshot</id>
+    <url>http://192.168.29.230:8087/repository/main-snapshots/</url>
+    <releases><enabled>false</enabled></releases>
+    <snapshots><enabled>true</enabled></snapshots>
+  </repository>
+</repositories>
+
+<pluginRepositories>
+  <pluginRepository>
+    <id>nexus-repository-snapshot</id>
+    <url>http://192.168.29.230:8087/repository/main-snapshots/</url>
+    <releases><enabled>false</enabled></releases>
+    <snapshots><enabled>true</enabled></snapshots>
+  </pluginRepository>
+</pluginRepositories>
+
      
   <dependencies>
     <dependency>
