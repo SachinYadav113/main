@@ -13,7 +13,7 @@ import com.example.utility.HelloUtil;
 
 public class MainApp {
     public static void main(String[] args) {
-        String message = HelloUtil.getMessages();
+        String message = HelloUtil.getMessage();
         System.out.println(message);
 
         // Force use of the class to ensure Maven cannot ignore the dependency
@@ -27,7 +27,7 @@ public class MainApp {
 
     private static void ensureUtilityLoaded() {
         // Access HelloUtil class again to force compile-time dependency
-        String test = HelloUtil.getMessages().toLowerCase();
+        String test = HelloUtil.getMessage().toLowerCase();
         if (test.isEmpty()) {
             throw new RuntimeException("utility-lib did not work as expected.");
         }
