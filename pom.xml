@@ -46,7 +46,7 @@
         <finalName>main-executable</finalName>
         <appendAssemblyId>false</appendAssemblyId>
         <descriptors>
-          <descriptor>src/assembly/zip.xml</descriptor>
+          <descriptor>src/main/zip.xml</descriptor>
         </descriptors>
       </configuration>
       <executions>
