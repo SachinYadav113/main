@@ -7,16 +7,16 @@
   <version>1.0-SNAPSHOT</version>
 
          
-<!-- <repositories>
-    <repository>
-        <id>nexus-snapshots</id>
+<repositories>
+     <repository>
+        <id>utility-snapshots</id>
         <url>http://192.168.29.230:8087/repository/utility-snapshots/</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
         </snapshots>
     </repository>
-</repositories> -->
+</repositories>
 
   <dependencies>
     <dependency>
