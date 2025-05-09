@@ -7,16 +7,16 @@
   <version>1.0-SNAPSHOT</version>
 
          
-<!-- <repositories>
+<repositories>
      <repository>
         <id>utility-snapshots</id>
-        <url>http://192.168.29.230:8087/repository/utility-snapshots/</url>
+        <url>https://572a-49-43-32-24.ngrok-free.app/repository/utility-snapshots/</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
         </snapshots>
     </repository>
-</repositories> -->
+</repositories>
 
   <dependencies>
     <dependency>
